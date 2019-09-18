@@ -1,0 +1,33 @@
+{
+    "authors": ["Shove"],
+    "name": "jieba",
+    "description": "Jieba chinese word segmentation D Deimos Bindings.",
+    "license": "MIT",
+    "copyright": "Copyright © 2019, Shove",
+    "targetType": "library",
+    "targetName": "jieba",
+    "importPaths": [
+        "."
+    ],
+    "sourcePaths": [
+        "./deimos"
+    ],
+    "lflags": [
+        "-lstdc++"
+    ],
+    "lflags-osx": [
+        "-L$PACKAGE_DIR/lib/darwin"
+    ],
+    "lflags-linux": [
+        "-L$PACKAGE_DIR/lib/linux"
+    ],
+    "lflags-windows-x86": [
+        "\"$PACKAGE_DIR\\lib\\win32\\\""
+    ],
+    "lflags-windows-x86_64": [
+        "\"/libpath:$PACKAGE_DIR\\lib\\win64\""
+    ],
+    "libs": [
+        "jieba"
+    ]
+}

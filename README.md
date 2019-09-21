@@ -1,11 +1,13 @@
 [![Build Status](https://travis-ci.org/shove70/jieba.svg?branch=master)](https://travis-ci.org/shove70/jieba)
 [![GitHub tag](https://img.shields.io/github/tag/shove70/jieba.svg?maxAge=86400)](https://github.com/shove70/jieba/releases)
+[![Dub downloads](https://img.shields.io/dub/dt/jieba.svg)](http://code.dlang.org/packages/jieba)
 
 # Jieba chinese word segmentation D Deimos Bindings.
 
 Reference:
 
-https://github.com/yanyiwu/cppjieba
++ https://github.com/yanyiwu/cppjieba (upstream)
++ https://github.com/shove70/cppjieba/tree/shove (Fork, Add APIs)
 
 
 ### Quick Start:

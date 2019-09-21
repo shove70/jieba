@@ -15,8 +15,8 @@ Jieba* jieba;
 
 typedef struct
 {
-	char* word;
-	size_t length;
+    char* word;
+    size_t length;
 } AWord;
 
 int jieba_open(const char* dict_path, const char* hmm_path, const char* user_dict_path, const char* idf_path, const char* stop_word_path);

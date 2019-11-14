@@ -12,8 +12,11 @@
     "sourcePaths": [
         "./deimos"
     ],
-    "lflags": [
+    "lflags-posix": [
         "-lstdc++"
+    ],
+    "libs-posix": [
+        "jieba"
     ],
     "lflags-osx": [
         "-L$PACKAGE_DIR/lib/darwin"
@@ -21,13 +24,16 @@
     "lflags-linux": [
         "-L$PACKAGE_DIR/lib/linux"
     ],
-    "lflags-windows-x86": [
-        "\"$PACKAGE_DIR\\lib\\win32\\\""
+    "sourceFiles-windows-x86": [
+        "lib/win32/jieba.lib"
     ],
-    "lflags-windows-x86_64": [
-        "\"/libpath:$PACKAGE_DIR\\lib\\win64\""
+    "copyFiles-windows-x86": [
+        "lib/win32/jieba.dll"
     ],
-    "libs": [
-        "jieba"
+    "sourceFiles-windows-x86_64": [
+        "lib/win64/jieba.lib"
+    ],
+    "copyFiles-windows-x86_64": [
+        "lib/win64/jieba.dll"
     ]
 }
